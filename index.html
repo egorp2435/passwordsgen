@@ -1,0 +1,35 @@
+<html>
+<head><title>Генератор паролей</title></head>
+<body>
+<div class="container">
+	<div class="result-container">
+		<span id="result"></span>
+		<button class="btn" id="copy">Скопировать</button>
+	</div>
+	<div class="settings">
+		<div class="setting">
+			<label>Длина</label>
+			<input type="number" id="length" min='5' max='50' value='10' />
+		</div>
+		<div class="setting">
+			<label>Заглавные буквы</label> 
+			<input type="checkbox" id="uppers" checked />
+		</div>
+		<div class="setting">
+			<label>Малые буквы</label> 
+			<input type="checkbox" id="lowers" checked />
+		</div>
+		<div class="setting">
+			<label>Цифры</label> 
+			<input type="checkbox" id="numbers" checked />
+		</div>
+		<div class="setting">
+			<label>Символы</label> 
+			<input type="checkbox" id="symbols" checked />
+		</div>
+	</div>
+	<button class="btn btn-large" id="generate">Сгенерировать</button>
+<script src="script.js"></script>
+</div>
+</body>
+</html>
